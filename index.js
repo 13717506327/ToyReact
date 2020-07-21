@@ -5,7 +5,7 @@ let a = <div>123</div>;
 class MyComponet extends ToyReact.Component {
 
   render() {
-    return  <div>
+    return <div>
       <span>1</span>
       <span>2</span>
       <span>3</span>
@@ -17,12 +17,12 @@ class MyComponet extends ToyReact.Component {
   }
 }
 
-let myInstance = <MyComponet name='self' id='1'>
+let myReact = <MyComponet name='self' id='1'>
   <div>1</div>
 </MyComponet>;
 
 
 ToyReactDOM.render(
-  myComponetInstance,
+  myReact,
   document.getElementById('root')
 )
